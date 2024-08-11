@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c1c1c1;
+    color: #ffff00;
+    line-height: 1.6;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#startup-screen, #questionnaire {
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.1);
+    padding: 40px;
+    width: 80%;
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffff00;
+    font-size: 52px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px; /* Add some space between image and button */
+}
+
+.image-container img {
+    max-width: 80%; /* Reduce image size by 20% */
+    height: auto;
+    border-radius: 15px; /* Add rounded edges to the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.start-button-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-btn {
+    background-color: #000000;
+    color: #00ffff;
+    border: 3px solid #00ffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#start-btn:hover {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+.options label, .steps label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    border: 1px solid #ffff00;
+    color: #ffff00;
+    font-size: 18px;
+}
+
+button {
+    background-color: #000000;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+#result {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.button-container {
+    text-align: center;
+}
