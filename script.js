@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function startQuiz() {
     document.getElementById('startup-screen').style.display = 'none';
-    document.getElementById('questionnaire').style.display = 'block';
+    document.getElementById('test').style.display = 'block';
     displayQuestion();
 }
 
